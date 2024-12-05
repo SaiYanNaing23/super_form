@@ -1,0 +1,256 @@
+{
+    "data": {
+      "me": {
+        "name": "Yan Naing"
+      },
+      "boards": [
+        {
+          "name": "Planner",
+          "columns": [
+            {
+              "title": "Name",
+              "id": "name",
+              "type": "name",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Status",
+              "id": "status",
+              "type": "status",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : "",
+              "options" : [
+                {
+                  "id" : 1,
+                  "value" : "Done"
+                },
+                {
+                  "id" : 2,
+                  "value" : "Working on it"
+                },
+                {
+                  "id" : 3,
+                  "value" : "Stuck"
+                },
+                {
+                  "id" : 4,
+                  "value" : "Block"
+                }
+              ]
+            },
+            {
+              "title": "Update",
+              "id": "update",
+              "type": "update",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Priority",
+              "id": "priority",
+              "type": "status",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : "",
+              "options" : [
+                {
+                  "id" : 1,
+                  "value" : "Critical"
+                },
+                {
+                  "id" : 2,
+                  "value" : "High"
+                },
+                {
+                  "id" : 3,
+                  "value" : "Medium"
+                },
+                {
+                  "id" : 4,
+                  "value" : "Low"
+                }
+              ]
+            },
+            {
+              "title": "Timeline",
+              "id": "timeline",
+              "type": "timeline",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Label",
+              "id": "label",
+              "type": "status",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : "",
+              "options" : [
+                {
+                  "id" : 1,
+                  "value" : "Label 1"
+                },
+                {
+                  "id" : 1,
+                  "value" : "Label 2"
+                },
+                {
+                  "id" : 1,
+                  "value" : "Label 3"
+                }
+              ]
+            },
+            {
+              "title": "Start Date",
+              "id": "date4",
+              "type": "date",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Link",
+              "id": "link",
+              "type": "link",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Files",
+              "id": "files",
+              "type": "file",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Text",
+              "id": "text",
+              "type": "text",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "People",
+              "id": "people",
+              "type": "people",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : "",
+              "options" : [
+                {
+                  "id" : 1,
+                  "value" : "Ko Sai"
+                },
+                {
+                  "id" : 2,
+                  "value" : "Bro Kaung"
+                },
+                {
+                  "id" : 3,
+                  "value" : "Mote Hinn Khr"
+                },
+                {
+                  "id" : 4,
+                  "value" : "Ma Su Myat"
+                }
+              ]
+            },
+            {
+              "title": "Dropdown",
+              "id": "dropdown",
+              "type": "dropdown",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : "",
+              "options" : [
+                {
+                  "id" : 1,
+                  "value" : "Eating"
+                },
+                {
+                  "id" : 2,
+                  "value" : "Running"
+                },
+                {
+                  "id" : 3,
+                  "value" : "Relaxing"
+                },
+                {
+                  "id" : 4,
+                  "value" : "Playing"
+                }
+              ]
+            },
+            {
+              "title": "Checkbox",
+              "id": "checkbox",
+              "type": "checkbox",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            },
+            {
+              "title": "Numbers",
+              "id": "number",
+              "type": "number",
+              "required" : false,
+              "condition" : false,
+              "text_field" : "",
+              "isHidden" : false,
+              "monday_value" : ""
+            }
+            
+          ],
+          "groups": [
+            {
+              "title": "Daily To Do LIsts",
+              "id": "topics"
+            },
+            {
+              "title": "Weekend To Do Lists",
+              "id": "new_group__1"
+            },
+            {
+              "title": "Completed",
+              "id": "group_title"
+            }
+          ]
+        }
+      ]
+    },
+    "account_id": 26592540
+  }
